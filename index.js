@@ -27,4 +27,4 @@ var wordCountMap = monologueLines.reduce((acc, words)=>{
   }
   else{
     acc[(words.split(" ").length).toString()] = 1
-  }},Object)
+  }},)
