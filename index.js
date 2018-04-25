@@ -30,4 +30,6 @@ var wordCountMap = monologueLines.reduce((acc, words)=>{
   else{
     acc[length_of_string] = 1
   }
+
+  return acc
 },{})
