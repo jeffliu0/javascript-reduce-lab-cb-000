@@ -21,6 +21,6 @@ var totalBatteries = batteryBatches.reduce((acc, value) => {
   return acc + value
 }, 0)
 
-var monologueLines = monologueLines.reduce((acc, words)=>{
+var wordCountMap = monologueLines.reduce((acc, words)=>{
   return acc[str(word.split(" ").length)]++
   })
